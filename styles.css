@@ -26,7 +26,11 @@ body {
 }
 
 /* individual thingies */
-
+.hero {
+    justify-content: space-between;
+    padding: 3rem 25vh;
+    gap: 2rem;
+}
 
 
 /* list itemsz */
