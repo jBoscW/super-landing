@@ -14,7 +14,7 @@ body {
 }
 
 .banner {
-    min-height: 200px;
+    min-height: 300px;
     display: flex;
     padding: 3rem;
 }
@@ -32,8 +32,28 @@ body {
     gap: 2rem;
 }
 
+.hero > img {
+    width: 120%;
+    height: 300px;
+    object-fit: cover;
+}
 
-/* list itemsz */
+button {
+    display: block;
+    border-radius: 8px;
+    border: none;
+
+    padding: 0.5rem 2rem;
+    margin: 1rem 0;
+
+    background-color: rgb(78,128,328);
+    color: #f9faf8;
+    font-weight: 599;
+}
+
+
+
+/* list and styles */
 ul {
     list-style-type: none;
     display: flex;
@@ -49,10 +69,24 @@ ul {
     color: white;
 }
 
+.left > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0 0 1rem 0;
+}
+
+.left > h5, 
+.footer.navy {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 200;
+}
+
 /* banner backgroumd colors */
 .navy {
     background-color: #1f2937;
-    color: #e5e7eb;
+    color: #f9faf8;
 }
 
 .grey {
@@ -64,4 +98,3 @@ ul {
     background-color: white;
     color: #1f2937;
 }
-
