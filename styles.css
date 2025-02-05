@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 0.8rem 12vw;
+    padding: 0.8rem 15vw;
     font-size: 24px;
 }
 
@@ -23,6 +23,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 2rem 0;
 }
 
 /* INDIVIDUAL THINGIES */
@@ -31,7 +33,7 @@ body {
 /* hero */
 .hero {
     justify-content: space-between;
-    padding: 3rem 12vw;
+    padding: 6rem 15vw;
     gap: 2rem;
 }
 
@@ -62,13 +64,14 @@ button {
     display: block;
     border-radius: 8px;
     border: none;
-
     padding: 0.5rem 2rem;
     margin: 1rem 0;
 
     background-color: rgb(78,128,328);
     color: #f9faf8;
-    font-weight: 599;
+
+    font-size: 18px;
+    font-weight: 600;
 }
 
 /* images */
@@ -76,7 +79,7 @@ button {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5rem 18vw 6rem;
+    padding: 2.5rem 18vw 8rem;
 }
 
 .h2 {
@@ -99,13 +102,36 @@ button {
     width: 175px;
     height: 175px;
     object-fit: cover;
-    border: 5px solid rgb(96, 96, 251);
+    border: 5px solid #3882f6;
     border-radius: 1rem;
 
     margin-bottom: 0.5rem;
 }
 
-/*  */
+/* quote part */
+.quote {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5rem 21vw;
+}
+
+.text {
+    font-size: 36px;
+    color: #1f2937;
+    
+    font-style: italic;
+    font-weight: 300;
+}
+
+.thor {
+    align-self: flex-end;
+    margin-right: 3rem;
+
+    font-size: 25px;
+    font-weight: bold;
+}
 
 /* dsacsdcsdcsdcsdcsc */
 /* list and styles */
