@@ -76,16 +76,18 @@ button {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5rem 20vw 6rem;
+    padding: 2.5rem 18vw 6rem;
 }
 
 .h2 {
     font-size: 32px;
     font-weight: 900;
+    margin-bottom: 3rem;
 }
 
 .cards {
     display: flex;
+    justify-content: space-between;
 }
 
 .cards {
@@ -94,10 +96,16 @@ button {
 
 
 .cards .card img {
-    width: 100px;
-    height: 100px;
+    width: 175px;
+    height: 175px;
     object-fit: cover;
+    border: 5px solid rgb(96, 96, 251);
+    border-radius: 1rem;
+
+    margin-bottom: 0.5rem;
 }
+
+/*  */
 
 /* dsacsdcsdcsdcsdcsc */
 /* list and styles */
