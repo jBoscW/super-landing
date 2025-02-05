@@ -16,7 +16,7 @@ body {
 .banner {
     min-height: 300px;
     display: flex;
-    padding: 3rem;
+    padding: 6rem 15vw;
 }
 
 .footer {
@@ -33,7 +33,6 @@ body {
 /* hero */
 .hero {
     justify-content: space-between;
-    padding: 6rem 15vw;
     gap: 2rem;
 }
 
@@ -114,7 +113,7 @@ button {
     justify-content: center;
     align-items: center;
 
-    padding: 5rem 21vw;
+    padding: 6rem 21vw;
 }
 
 .text {
@@ -132,6 +131,13 @@ button {
     font-size: 25px;
     font-weight: bold;
 }
+
+/* cta */
+.cta {
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* dsacsdcsdcsdcsdcsc */
 /* list and styles */
